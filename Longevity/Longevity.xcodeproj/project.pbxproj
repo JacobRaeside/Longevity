@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80749462C0EB4A000D185E5 /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80749452C0EB4A000D185E5 /* ActivityRingsView.swift */; };
+		F80749482C0EBB1800D185E5 /* SleepChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80749472C0EBB1800D185E5 /* SleepChartView.swift */; };
+		F856F3662C03EB77008F000E /* LongevityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856F3652C03EB77008F000E /* LongevityApp.swift */; };
+		F856F3682C03EB77008F000E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856F3672C03EB77008F000E /* ContentView.swift */; };
+		F856F36A2C03EB77008F000E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F856F3692C03EB77008F000E /* Assets.xcassets */; };
+		F856F36E2C03EB77008F000E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F856F36D2C03EB77008F000E /* Preview Assets.xcassets */; };
+		F856F3782C03EB78008F000E /* LongevityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856F3772C03EB78008F000E /* LongevityTests.swift */; };
+		F856F3822C03EB78008F000E /* LongevityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856F3812C03EB78008F000E /* LongevityUITests.swift */; };
+		F856F3842C03EB78008F000E /* LongevityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856F3832C03EB78008F000E /* LongevityUITestsLaunchTests.swift */; };
+		F894C54A2C1027810033C672 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F894C5492C1027810033C672 /* SearchBar.swift */; };
+		F894C54C2C1161D20033C672 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F894C54B2C1161D20033C672 /* InfoView.swift */; };
+		F8C293A22C0D1F8B009FC4A5 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C293A12C0D1F8B009FC4A5 /* WorkoutsView.swift */; };
+		F8C293A42C0D1F9E009FC4A5 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C293A32C0D1F9E009FC4A5 /* WorkoutView.swift */; };
+		F8C293A62C0D1FAE009FC4A5 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C293A52C0D1FAE009FC4A5 /* WorkoutDetailView.swift */; };
+		F8C293AC2C0D1FE4009FC4A5 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C293AB2C0D1FE4009FC4A5 /* SleepView.swift */; };
+		F8C293AE2C0D1FF2009FC4A5 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C293AD2C0D1FF2009FC4A5 /* ProgressBar.swift */; };
+		F8C293B42C0D201E009FC4A5 /* SummaryBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C293B32C0D201E009FC4A5 /* SummaryBarChart.swift */; };
+		F8C293B62C0D2050009FC4A5 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C293B52C0D2050009FC4A5 /* OverviewView.swift */; };
+		F8C293B82C0D35F4009FC4A5 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C293B72C0D35F4009FC4A5 /* HealthStore.swift */; };
+		F8C293BA2C0D4DE5009FC4A5 /* HealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C293B92C0D4DE5009FC4A5 /* HealthData.swift */; };
+		F8C293BE2C0D8529009FC4A5 /* HeartRateChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C293BD2C0D8529009FC4A5 /* HeartRateChart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F856F3742C03EB78008F000E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F856F35A2C03EB76008F000E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F856F3612C03EB76008F000E;
+			remoteInfo = Longevity;
+		};
+		F856F37E2C03EB78008F000E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F856F35A2C03EB76008F000E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F856F3612C03EB76008F000E;
+			remoteInfo = Longevity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F80749452C0EB4A000D185E5 /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
+		F80749472C0EBB1800D185E5 /* SleepChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepChartView.swift; sourceTree = "<group>"; };
+		F856F3622C03EB77008F000E /* Longevity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Longevity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F856F3652C03EB77008F000E /* LongevityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongevityApp.swift; sourceTree = "<group>"; };
+		F856F3672C03EB77008F000E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F856F3692C03EB77008F000E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F856F36B2C03EB77008F000E /* Longevity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Longevity.entitlements; sourceTree = "<group>"; };
+		F856F36D2C03EB77008F000E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F856F3732C03EB78008F000E /* LongevityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongevityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F856F3772C03EB78008F000E /* LongevityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongevityTests.swift; sourceTree = "<group>"; };
+		F856F37D2C03EB78008F000E /* LongevityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongevityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F856F3812C03EB78008F000E /* LongevityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongevityUITests.swift; sourceTree = "<group>"; };
+		F856F3832C03EB78008F000E /* LongevityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongevityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F894C5492C1027810033C672 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		F894C54B2C1161D20033C672 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F894C54D2C116B220033C672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F8C293A12C0D1F8B009FC4A5 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		F8C293A32C0D1F9E009FC4A5 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		F8C293A52C0D1FAE009FC4A5 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		F8C293AB2C0D1FE4009FC4A5 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		F8C293AD2C0D1FF2009FC4A5 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		F8C293B32C0D201E009FC4A5 /* SummaryBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryBarChart.swift; sourceTree = "<group>"; };
+		F8C293B52C0D2050009FC4A5 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		F8C293B72C0D35F4009FC4A5 /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		F8C293B92C0D4DE5009FC4A5 /* HealthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthData.swift; sourceTree = "<group>"; };
+		F8C293BD2C0D8529009FC4A5 /* HeartRateChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F856F35F2C03EB76008F000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F856F3702C03EB78008F000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F856F37A2C03EB78008F000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F856F3592C03EB76008F000E = {
+			isa = PBXGroup;
+			children = (
+				F856F3642C03EB77008F000E /* Longevity */,
+				F856F3762C03EB78008F000E /* LongevityTests */,
+				F856F3802C03EB78008F000E /* LongevityUITests */,
+				F856F3632C03EB77008F000E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F856F3632C03EB77008F000E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F856F3622C03EB77008F000E /* Longevity.app */,
+				F856F3732C03EB78008F000E /* LongevityTests.xctest */,
+				F856F37D2C03EB78008F000E /* LongevityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F856F3642C03EB77008F000E /* Longevity */ = {
+			isa = PBXGroup;
+			children = (
+				F894C54D2C116B220033C672 /* Info.plist */,
+				F856F3652C03EB77008F000E /* LongevityApp.swift */,
+				F856F3672C03EB77008F000E /* ContentView.swift */,
+				F8C293B52C0D2050009FC4A5 /* OverviewView.swift */,
+				F8C293A12C0D1F8B009FC4A5 /* WorkoutsView.swift */,
+				F8C293A32C0D1F9E009FC4A5 /* WorkoutView.swift */,
+				F8C293A52C0D1FAE009FC4A5 /* WorkoutDetailView.swift */,
+				F8C293AB2C0D1FE4009FC4A5 /* SleepView.swift */,
+				F894C54B2C1161D20033C672 /* InfoView.swift */,
+				F894C5492C1027810033C672 /* SearchBar.swift */,
+				F8C293AD2C0D1FF2009FC4A5 /* ProgressBar.swift */,
+				F8C293B32C0D201E009FC4A5 /* SummaryBarChart.swift */,
+				F8C293BD2C0D8529009FC4A5 /* HeartRateChart.swift */,
+				F80749472C0EBB1800D185E5 /* SleepChartView.swift */,
+				F80749452C0EB4A000D185E5 /* ActivityRingsView.swift */,
+				F8C293B72C0D35F4009FC4A5 /* HealthStore.swift */,
+				F8C293B92C0D4DE5009FC4A5 /* HealthData.swift */,
+				F856F3692C03EB77008F000E /* Assets.xcassets */,
+				F856F36B2C03EB77008F000E /* Longevity.entitlements */,
+				F856F36C2C03EB77008F000E /* Preview Content */,
+			);
+			path = Longevity;
+			sourceTree = "<group>";
+		};
+		F856F36C2C03EB77008F000E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F856F36D2C03EB77008F000E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F856F3762C03EB78008F000E /* LongevityTests */ = {
+			isa = PBXGroup;
+			children = (
+				F856F3772C03EB78008F000E /* LongevityTests.swift */,
+			);
+			path = LongevityTests;
+			sourceTree = "<group>";
+		};
+		F856F3802C03EB78008F000E /* LongevityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F856F3812C03EB78008F000E /* LongevityUITests.swift */,
+				F856F3832C03EB78008F000E /* LongevityUITestsLaunchTests.swift */,
+			);
+			path = LongevityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F856F3612C03EB76008F000E /* Longevity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F856F3872C03EB78008F000E /* Build configuration list for PBXNativeTarget "Longevity" */;
+			buildPhases = (
+				F856F35E2C03EB76008F000E /* Sources */,
+				F856F35F2C03EB76008F000E /* Frameworks */,
+				F856F3602C03EB76008F000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Longevity;
+			productName = Longevity;
+			productReference = F856F3622C03EB77008F000E /* Longevity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F856F3722C03EB78008F000E /* LongevityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F856F38A2C03EB78008F000E /* Build configuration list for PBXNativeTarget "LongevityTests" */;
+			buildPhases = (
+				F856F36F2C03EB78008F000E /* Sources */,
+				F856F3702C03EB78008F000E /* Frameworks */,
+				F856F3712C03EB78008F000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F856F3752C03EB78008F000E /* PBXTargetDependency */,
+			);
+			name = LongevityTests;
+			productName = LongevityTests;
+			productReference = F856F3732C03EB78008F000E /* LongevityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F856F37C2C03EB78008F000E /* LongevityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F856F38D2C03EB78008F000E /* Build configuration list for PBXNativeTarget "LongevityUITests" */;
+			buildPhases = (
+				F856F3792C03EB78008F000E /* Sources */,
+				F856F37A2C03EB78008F000E /* Frameworks */,
+				F856F37B2C03EB78008F000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F856F37F2C03EB78008F000E /* PBXTargetDependency */,
+			);
+			name = LongevityUITests;
+			productName = LongevityUITests;
+			productReference = F856F37D2C03EB78008F000E /* LongevityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F856F35A2C03EB76008F000E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F856F3612C03EB76008F000E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F856F3722C03EB78008F000E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F856F3612C03EB76008F000E;
+					};
+					F856F37C2C03EB78008F000E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F856F3612C03EB76008F000E;
+					};
+				};
+			};
+			buildConfigurationList = F856F35D2C03EB76008F000E /* Build configuration list for PBXProject "Longevity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F856F3592C03EB76008F000E;
+			productRefGroup = F856F3632C03EB77008F000E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F856F3612C03EB76008F000E /* Longevity */,
+				F856F3722C03EB78008F000E /* LongevityTests */,
+				F856F37C2C03EB78008F000E /* LongevityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F856F3602C03EB76008F000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F856F36E2C03EB77008F000E /* Preview Assets.xcassets in Resources */,
+				F856F36A2C03EB77008F000E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F856F3712C03EB78008F000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F856F37B2C03EB78008F000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F856F35E2C03EB76008F000E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F894C54C2C1161D20033C672 /* InfoView.swift in Sources */,
+				F856F3682C03EB77008F000E /* ContentView.swift in Sources */,
+				F8C293BE2C0D8529009FC4A5 /* HeartRateChart.swift in Sources */,
+				F8C293B42C0D201E009FC4A5 /* SummaryBarChart.swift in Sources */,
+				F80749462C0EB4A000D185E5 /* ActivityRingsView.swift in Sources */,
+				F80749482C0EBB1800D185E5 /* SleepChartView.swift in Sources */,
+				F8C293A62C0D1FAE009FC4A5 /* WorkoutDetailView.swift in Sources */,
+				F8C293AE2C0D1FF2009FC4A5 /* ProgressBar.swift in Sources */,
+				F8C293BA2C0D4DE5009FC4A5 /* HealthData.swift in Sources */,
+				F856F3662C03EB77008F000E /* LongevityApp.swift in Sources */,
+				F8C293A42C0D1F9E009FC4A5 /* WorkoutView.swift in Sources */,
+				F8C293AC2C0D1FE4009FC4A5 /* SleepView.swift in Sources */,
+				F8C293A22C0D1F8B009FC4A5 /* WorkoutsView.swift in Sources */,
+				F8C293B62C0D2050009FC4A5 /* OverviewView.swift in Sources */,
+				F894C54A2C1027810033C672 /* SearchBar.swift in Sources */,
+				F8C293B82C0D35F4009FC4A5 /* HealthStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F856F36F2C03EB78008F000E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F856F3782C03EB78008F000E /* LongevityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F856F3792C03EB78008F000E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F856F3842C03EB78008F000E /* LongevityUITestsLaunchTests.swift in Sources */,
+				F856F3822C03EB78008F000E /* LongevityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F856F3752C03EB78008F000E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F856F3612C03EB76008F000E /* Longevity */;
+			targetProxy = F856F3742C03EB78008F000E /* PBXContainerItemProxy */;
+		};
+		F856F37F2C03EB78008F000E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F856F3612C03EB76008F000E /* Longevity */;
+			targetProxy = F856F37E2C03EB78008F000E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F856F3852C03EB78008F000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F856F3862C03EB78008F000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F856F3882C03EB78008F000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Longevity/Longevity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Longevity/Preview Content\"";
+				DEVELOPMENT_TEAM = X6Q7G6QMQF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Longevity/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your health data is used to aggregate and display your data as well as calculate health indicators.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jraeside.Longevity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F856F3892C03EB78008F000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Longevity/Longevity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Longevity/Preview Content\"";
+				DEVELOPMENT_TEAM = X6Q7G6QMQF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Longevity/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your health data is used to aggregate and display your data as well as calculate health indicators.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jraeside.Longevity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F856F38B2C03EB78008F000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jraeside.LongevityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Longevity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Longevity";
+			};
+			name = Debug;
+		};
+		F856F38C2C03EB78008F000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jraeside.LongevityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Longevity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Longevity";
+			};
+			name = Release;
+		};
+		F856F38E2C03EB78008F000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jraeside.LongevityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Longevity;
+			};
+			name = Debug;
+		};
+		F856F38F2C03EB78008F000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jraeside.LongevityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Longevity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F856F35D2C03EB76008F000E /* Build configuration list for PBXProject "Longevity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F856F3852C03EB78008F000E /* Debug */,
+				F856F3862C03EB78008F000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F856F3872C03EB78008F000E /* Build configuration list for PBXNativeTarget "Longevity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F856F3882C03EB78008F000E /* Debug */,
+				F856F3892C03EB78008F000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F856F38A2C03EB78008F000E /* Build configuration list for PBXNativeTarget "LongevityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F856F38B2C03EB78008F000E /* Debug */,
+				F856F38C2C03EB78008F000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F856F38D2C03EB78008F000E /* Build configuration list for PBXNativeTarget "LongevityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F856F38E2C03EB78008F000E /* Debug */,
+				F856F38F2C03EB78008F000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F856F35A2C03EB76008F000E /* Project object */;
+}
